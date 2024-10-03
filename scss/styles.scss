@@ -8,6 +8,20 @@ $font-stack: "Montserrat", sans-serif;
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+  
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
+
 html,
 body {
     font-family: $font-stack;
@@ -60,6 +74,33 @@ form {
 }
 
 //mainheader
+#mainheader {
+    .navbar {
+        .logo {
+            margin:1rem;
+            font-size: 2rem;
+            span {
+                color: red;
+                font-size: 2.5rem;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        }
+        ul {
+            display: flex;
+            margin: 2rem;
+            font-size: 1.2rem;
+            li {
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+}
 .mainheader-row {
     display: flex;
     margin-bottom: 2em;
