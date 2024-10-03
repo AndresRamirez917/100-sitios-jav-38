@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.button-1 {
+  background: blue;
+  color: #fff;
+}
+
+.button-2 {
+  background: #2206bf;
+  color: #fff;
+}
+
+form .form-group {
+  margin-bottom: 1em;
+  color: #fff;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 5px;
+}
+form button {
+  width: 100%;
+}
+
+.mainheader-row {
+  display: flex;
+  margin-bottom: 2em;
+}
+.mainheader-row .mainheader-text {
+  width: 40%;
+  margin-top: 5em;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.mainheader-row .mainheader-text .button-1 {
+  margin-top: 5em;
+}
+.mainheader-row .mainheader-img img {
+  width: 800px;
+  height: 800px;
+}
+
+#contact {
+  background: #e71ed3;
+  width: 80%;
+  margin: 0 auto;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  color: #fff;
+}
+#contact h2 {
+  font-weight: lighter;
+  font-size: 3em;
+  margin: 2em 0 1em 0;
+  text-align: center;
+  color: #fff;
+}
+#contact p {
+  font-size: 3em;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 2em;
+}
+#contact form {
+  width: 60%;
+  margin: 0 auto;
+}
+#contact form button {
+  margin-bottom: 3em;
+}
+
+#footer {
+  text-align: center;
+  padding: 3em;
+}/*# sourceMappingURL=styles.css.map */

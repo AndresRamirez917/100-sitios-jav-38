@@ -1,0 +1,15 @@
+.mainheader-row {
+  display: block;
+}
+.mainheader-row .mainheader-text {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.mainheader-row .mainheader-text .button-1 {
+  margin-bottom: 2em;
+}
+.mainheader-row .mainheader-img img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=mobile.css.map */
