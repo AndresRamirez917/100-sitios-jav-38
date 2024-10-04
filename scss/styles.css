@@ -116,7 +116,25 @@ form button {
 #testimonials {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
+#testimonials .container h2 {
+  text-align: center;
+  margin: 5rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+#testimonials .container .flex-row .card {
+  margin-bottom: 5rem;
+}
+#testimonials .container .flex-row .card img {
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+#testimonials .container .flex-row .card h3 {
+  margin-bottom: 2rem;
+}
+
 #contact {
   background: #e71ed3;
   width: 80%;

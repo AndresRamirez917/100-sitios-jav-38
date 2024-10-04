@@ -1,5 +1,5 @@
 function navbar() {
-    const arr = [["#mainheader", "home"], ["#contact", "contact"]]
+    const arr = [["#mainheader", "home"], ["#contact", "contact"], ["#testimonials", "testimonials"]]
     for(i = 0; i < arr.length; i++){
         for(j = 0; j < arr[i].length; i++){
             const li = document.createRange().createContextualFragment(`
@@ -24,7 +24,7 @@ async function testimonials(){
             <div class="card">
                   <img src="${element.picture.large}" alt="">
                   <div class="car-text">
-                      <h2>${element.name.first} ${element.name.last}</h2>
+                      <h3>${element.name.first} ${element.name.last}</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vero unde delectus debitis distinctio beatae necessitatibus dolores libero, quo adipisci.</p>
                   </div>
               </div>
