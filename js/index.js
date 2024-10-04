@@ -13,6 +13,33 @@ function navbar() {
     }
 }
 
+async function testimonials(){
+    const result = await fetch('https://randomuser.me/api?results=3');
+    const character = await result.json();
+    console.log(character);
+  character.results.forEach(element => {
+
+        const card = document.createRange().createContextualFragment(`
+            
+            <div class="card">
+                  <img src="${element.picture.large}" alt="">
+                  <div class="car-text">
+                      <h2>${element.name.first} ${element.name.last}</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos vero unde delectus debitis distinctio beatae necessitatibus dolores libero, quo adipisci.</p>
+                  </div>
+              </div>
+          
+          
+          `)
+          const flex_row = document.querySelector('.flex-row');
+          flex_row.append(card)
+    
+  });
+  
+
+}
+testimonials()
+
 const btn_validar = document.getElementById('btn-validar');
 const validar = (e) => {
     e.preventDefault();

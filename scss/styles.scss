@@ -73,6 +73,12 @@ form {
     }
 }
 
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+
 //mainheader
 #mainheader {
     .navbar {
@@ -119,6 +125,19 @@ form {
     .mainheader-img img {
         width: 800px;
         height: 800px;
+    }
+}
+
+//testimonilas
+#testimonials {
+    width: 90%;
+    margin: 0 auto;
+    .container {
+        // .flex-row {
+        //     display: flex;
+        //     flex: 1;
+        //     gap: 30px;
+        // }
     }
 }
 

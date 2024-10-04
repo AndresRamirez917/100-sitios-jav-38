@@ -65,6 +65,12 @@ form button {
   width: 100%;
 }
 
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 30px;
+}
+
 #mainheader .navbar .logo {
   margin: 1rem;
   font-size: 2rem;
@@ -107,6 +113,10 @@ form button {
   height: 800px;
 }
 
+#testimonials {
+  width: 90%;
+  margin: 0 auto;
+}
 #contact {
   background: #e71ed3;
   width: 80%;
